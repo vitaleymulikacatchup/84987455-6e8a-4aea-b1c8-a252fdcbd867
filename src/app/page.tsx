@@ -7,6 +7,7 @@ import VerticalCardRoadmap from '@/components/sections/layouts/roadmap/VerticalC
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
+import { Globe } from '@/components/bento/contents/Globe';
 
 const theme: SiteTheme = {
   styleVariant: "futuristicAndOutOfBox",
@@ -77,9 +78,9 @@ export default function Home() {
           title="NebulaCoin Tokenomics"
           description="Transparent and community-driven token allocation" 
           kpiItems={[
-            { value: "1 Billion", description: "Total Supply", longDescription: "Total amount of NebulaCoin minted.", icon: "" },
-            { value: "500 Million", description: "Circulating Supply", longDescription: "Current amount of NebulaCoins circulating in the market.", icon: "" },
-            { value: "50 Million", description: "Liquidity Pool", longDescription: "Tokens allocated to provide liquidity on exchanges.", icon: "" },
+            { value: "1 Billion", description: "Total Supply", longDescription: "Total amount of NebulaCoin minted.", icon: Globe },
+            { value: "500 Million", description: "Circulating Supply", longDescription: "Current amount of NebulaCoins circulating in the market.", icon: Globe },
+            { value: "50 Million", description: "Liquidity Pool", longDescription: "Tokens allocated to provide liquidity on exchanges.", icon: Globe },
           ]}
         />
       </div>
