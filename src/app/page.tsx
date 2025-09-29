@@ -29,7 +29,7 @@ export default function Home() {
             { name: "roadmap", id: "roadmap" },
             { name: "how-to-buy", id: "how-to-buy" },
             { name: "tokenomics", id: "tokenomics" },
-            { name: "footer", id: "footer" }
+            { name: "footer", id: "footer" },
           ]}
           buttonText="Buy NebulaCoin"
         />
