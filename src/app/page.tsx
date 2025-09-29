@@ -10,7 +10,9 @@ import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
 import { LucideIcon } from 'lucide-react';
 
 const styleVariant = "futuristicAndOutOfBox";
-const theme: SiteTheme = { styleVariant };
+const colorTemplate = 1;
+const textAnimation = "none";
+const theme: SiteTheme = { styleVariant, colorTemplate, textAnimation };
 
 export default function Home() {
   return (
