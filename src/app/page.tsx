@@ -7,6 +7,7 @@ import VerticalCardRoadmap from '@/components/sections/layouts/roadmap/VerticalC
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import LogoFooter from '@/components/sections/layouts/footer/LogoFooter';
+import { LucideIcon } from 'lucide-react';
 
 const styleVariant = "futuristicAndOutOfBox";
 const theme: SiteTheme = { styleVariant };
@@ -77,7 +78,7 @@ export default function Home() {
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <BigNumberTokenomics
           title="Tokenomics"
-          description="Here are the key stats of our tokenomics:">
+          description="Here are the key stats of our tokenomics:"
           kpiItems={[
             { value: "Total Supply", description: "1,000,000,000", longDescription: "Total supply of NebulaCoin", icon: LucideIcon },
             { value: "Circulating Supply", description: "750,000,000", longDescription: "Circulating supply", icon: LucideIcon },
