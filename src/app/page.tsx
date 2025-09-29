@@ -1,7 +1,7 @@
 "use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
-import CyclopsHero from '@/components/sections/layouts/hero/SplitHero';
+import CyclopsHero from '@/components/sections/layouts/hero/CyclopsHero';
 import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import VerticalCardRoadmap from '@/components/sections/layouts/roadmap/VerticalCardRoadmap';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
@@ -20,7 +20,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-n-1759146966377-36f1846d.jpg"
-          logoAlt="NebulaCoin Logo"
           logoWidth={150}
           logoHeight={100}
           navItems={[
@@ -93,7 +92,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <LogoFooter
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-n-1759146966377-36f1846d.jpg"
-          logoAlt="NebulaCoin"
           logoWidth={150}
           logoHeight={100}
           columns={[
