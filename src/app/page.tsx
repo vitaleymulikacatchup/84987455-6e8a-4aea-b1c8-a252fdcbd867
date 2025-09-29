@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import CyclopsHero from '@/components/sections/layouts/hero/SplitHero';
@@ -29,7 +29,7 @@ export default function Home() {
             { name: "roadmap", id: "roadmap" },
             { name: "how-to-buy", id: "how-to-buy" },
             { name: "tokenomics", id: "tokenomics" },
-            { name: "footer", id: "footer" },
+            { name: "footer", id: "footer" }
           ]}
           buttonText="Buy NebulaCoin"
         />
