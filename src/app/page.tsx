@@ -20,7 +20,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-n-1759147784850-f0cce883.jpg"
-          logoAlt="NebulaCoin Logo"
           logoWidth={200}
           logoHeight={50}
           navItems={[
@@ -87,7 +86,6 @@ export default function Home() {
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <LogoFooter
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-n-1759147784850-f0cce883.jpg"
-          logoAlt="NebulaCoin Logo"
           columns={[
             { title: "About", items: [{ label: "About", onClick: () => {} }, { label: "How to Buy", onClick: () => {} }] },
             { title: "Tokenomics", items: [{ label: "Tokenomics", onClick: () => {} }, { label: "Roadmap", onClick: () => {} }] },
