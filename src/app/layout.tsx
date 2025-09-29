@@ -17,9 +17,20 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "NebulaCoin — Futuristic Memecoin for a Transparent Memeverse",
   description: "NebulaCoin blends meme culture with a sleek, futuristic aesthetic. Clear buy steps, transparent tokenomics, and a community-driven roadmap for everyone.",
-  keywords: ["memecoin", "futuristic", "nebula", "cryptocurrency", "buy nebulacoin", "tokenomics", "roadmap", "community", "wallet", "dex"],
+  keywords: [
+    "memecoin",
+    "futuristic",
+    "nebula",
+    "cryptocurrency",
+    "buy nebulacoin",
+    "tokenomics",
+    "roadmap",
+    "community",
+    "wallet",
+    "dex",
+  ],
   alternates: {
-    canonical: "/"
+    canonical: "/",
   },
   openGraph: {
     title: "NebulaCoin — Futuristic Memecoin for a Transparent Memeverse",
@@ -27,37 +38,26 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "NebulaCoin",
-    images: [{
-      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/minimal-vector-mascot-for-nebulacoin-wai-1759146962697-6999ea41.jpg",
-      width: 1200,
-      height: 630,
-      alt: "NebulaCoin logo with neon galaxy gradient"
-    }]
+    images: [{ url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/minimal-vector-mascot-for-nebulacoin-wai-1759147782807-f2e1416e.jpg", width: 1200, height: 630, alt: "NebulaCoin Hero Image" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "NebulaCoin — Futuristic Memecoin for a Transparent Memeverse",
     description: "NebulaCoin blends meme culture with a sleek, futuristic aesthetic. Clear buy steps, transparent tokenomics, and a community-driven roadmap for everyone.",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/minimal-vector-mascot-for-nebulacoin-wai-1759146962697-6999ea41.jpg"]
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/minimal-vector-mascot-for-nebulacoin-wai-1759147782807-f2e1416e.jpg"],
   },
   robots: {
     index: true,
     follow: true,
-  }
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body
-        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>{children}</body>
     </html>
   );
 }
